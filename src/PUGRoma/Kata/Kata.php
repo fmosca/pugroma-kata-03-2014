@@ -27,6 +27,12 @@ class Kata
         }
         return $output;
     }
+
+    public function printFizBuzz()
+    {
+        $fizzbuzz = $this->getFizzBuzzArray();
+        echo join("\n", $fizzbuzz);
+    }
 }
 
 
