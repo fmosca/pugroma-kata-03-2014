@@ -8,6 +8,11 @@ class Kata
     {
         return true;
     }
+
+    public function getFizzBuzzArray()
+    {
+        return array();
+    }
 }
 
 
